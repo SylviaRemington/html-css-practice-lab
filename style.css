@@ -30,13 +30,21 @@ article {
     outline: 2px solid gold;
     padding: 20px;
     margin: 20px;
-    height: 270px;
+    text-align: center;
+    /* height: 270px; */
 }
+
+/* Can't figure out how to make main and article approx the same height and width. 
+Main is supposed to be 270 x 436 and article is supposed to be 270 x 420*/
 
 aside {
     color: white;
     background-color: black;
     padding: 100px;
+}
+
+a {
+    color: black;
 }
 
 /* .see-more-special-feature-link {
