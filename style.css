@@ -1,0 +1,21 @@
+button {
+    padding: 10px 40px;
+    /* outline: 2px solid gold; */
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#black {
+    color: white;
+    background-color: black;
+}
+
+#greytransparent {
+    background-color: rgba(128, 128, 128, 0);
+    margin-right: 50px;
+}
+
+main, article {
+    outline: 2px solid gold;
+
+}
