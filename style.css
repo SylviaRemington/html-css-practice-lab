@@ -5,17 +5,38 @@ button {
     margin: 10px;
 }
 
-#black {
+#blackbutton {
     color: white;
     background-color: black;
 }
 
-#greytransparent {
+#greytransparentbutton {
     background-color: rgba(128, 128, 128, 0);
     margin-right: 50px;
 }
 
 main, article {
     outline: 2px solid gold;
+}
 
+aside {
+    color: white;
+    background-color: black;
+    padding: 100px;
+}
+
+#div1, article, aside {
+    display: inline-block;
+}
+
+.see-more-special-feature-link {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border: 10px;
+    outline: 2px solid gold;
+    margin: 30px;
 }
