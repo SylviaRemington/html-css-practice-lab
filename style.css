@@ -15,8 +15,22 @@ button {
     margin-right: 50px;
 }
 
-main, article {
+.wrapping-three-sections {
+    text-align: left;
+}
+
+main,
+article,
+aside {
+    display: inline-block;
+}
+
+main,
+article {
     outline: 2px solid gold;
+    padding: 20px;
+    margin: 20px;
+    height: 270px;
 }
 
 aside {
@@ -25,18 +39,22 @@ aside {
     padding: 100px;
 }
 
-#div1, article, aside {
-    display: inline-block;
-}
-
-.see-more-special-feature-link {
+/* .see-more-special-feature-link {
     padding: 20px;
-}
+} */
+/* main{
+    padding: 20px;
+} */
 
-footer {
-    text-align: center;
-    padding: 40px;
-    border: 10px;
-    outline: 2px solid gold;
-    margin: 30px;
-}
+/* footer {
+  text-align: center;
+  padding: 40px;
+  border: 10px;
+  /* outline: 2px solid gold; */
+/* margin: 30px; */
+
+/* square {
+    height: 250px;
+    width: 250px;
+    background color: black;
+} */
