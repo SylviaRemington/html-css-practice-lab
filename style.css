@@ -21,6 +21,7 @@ button {
 
 main, article, aside {
   display: inline-block;
+  position: relative;
 }
 
 main, article {
