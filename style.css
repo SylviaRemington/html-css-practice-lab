@@ -1,50 +1,47 @@
 button {
-    padding: 10px 40px;
-    /* outline: 2px solid gold; */
-    border-radius: 5px;
-    margin: 10px;
+  padding: 10px 40px;
+  /* outline: 2px solid gold; */
+  border-radius: 5px;
+  margin: 10px;
 }
 
 #blackbutton {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 #greytransparentbutton {
-    background-color: rgba(128, 128, 128, 0);
-    margin-right: 50px;
+  background-color: rgba(128, 128, 128, 0);
+  margin-right: 50px;
 }
 
 .wrapping-three-sections {
-    text-align: left;
+  text-align: left;
 }
 
-main,
-article,
-aside {
-    display: inline-block;
+main, article, aside {
+  display: inline-block;
 }
 
-main,
-article {
-    outline: 2px solid gold;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    /* height: 270px; */
+main, article {
+  outline: 2px solid gold;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  /* height: 270px; */
 }
 
 /* Can't figure out how to make main and article approx the same height and width. 
 Main is supposed to be 270 x 436 and article is supposed to be 270 x 420*/
 
 aside {
-    color: white;
-    background-color: black;
-    padding: 100px;
+  color: white;
+  background-color: black;
+  padding: 100px;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 /* .see-more-special-feature-link {
