@@ -40,6 +40,10 @@ aside {
   padding: 100px;
 }
 
+main {
+    text-align: left;
+}
+
 a {
   color: black;
 }
